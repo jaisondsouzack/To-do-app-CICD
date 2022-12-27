@@ -36,3 +36,13 @@ $ python manage.py runserver
 Once the server is hosted, head over to http://127.0.0.1:8000/todos for the App.
 
 Cheers and Happy Coding :)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Dockerfile is added to the repo. 
+Just clone the repo, 
+build the image using docker file and run docker 
+sudo docker build . -t todoapp
+sudo docker run -p 8000:8000 -d todoapp
+
+Check your browser for the site to be running in the port 8000
